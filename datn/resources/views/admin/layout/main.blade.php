@@ -13,7 +13,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
-    <title>Dashboard - Analytics | Frest - Bootstrap Admin Template</title>
+    <title>BeePets | {{ $title  ?? "Bảng điều khiển" }}</title>
     <meta
         name="description"
         content="Start your development with a Dashboard for Bootstrap 5"
@@ -24,17 +24,7 @@
     />
     <link rel="canonical" href="https://1.envato.market/frest_admin"/>
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({"gtm.start": new Date().getTime(), event: "gtm.js"});
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != "dataLayer" ? "&l=" + l : "";
-            j.async = true;
-            j.src =
-                "../../../../www.googletagmanager.com/gtm5445.html?id=" + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, "script", "dataLayer", "GTM-5DDHKGP");
+
     </script>
     <link
         rel="icon"
@@ -46,16 +36,7 @@
     @stack('css')
 </head>
 <body>
-<noscript
->
-    <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-5DDHKGP"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-    ></iframe
-    >
-</noscript>
+
 
 <!-- Layout wrapper -->
 <div class="layout-wrapper layout-content-navbar">
